@@ -3,7 +3,7 @@ export interface FlatpickrOptions {
     altInput?: boolean;
     altInputClass?: string;
     allowInput?: boolean;
-    appendTo?: HTMLElement;
+    appendTo?: any;
     clickOpens?: boolean;
     dateFormat?: string;
     defaultDate?: string | Date;

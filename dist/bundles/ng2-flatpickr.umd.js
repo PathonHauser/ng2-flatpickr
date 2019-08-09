@@ -393,7 +393,7 @@
         ], Ng2FlatpickrDirective.prototype, "flatpickrAllowInput", void 0);
         __decorate([
             core.Input('appendTo'),
-            __metadata("design:type", HTMLElement)
+            __metadata("design:type", Object)
         ], Ng2FlatpickrDirective.prototype, "flatpickrAppendTo", void 0);
         __decorate([
             core.Input('clickOpens'),

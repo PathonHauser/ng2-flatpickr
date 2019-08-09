@@ -9,21 +9,21 @@ export class FlatpickrInstance {
 	config: Object;
 
 	/** The text input element associated with flatpickr. */
-	input: HTMLElement;
+	input: any;
 	/** The alt text input element associated with flatpickr. */
-	altInput: HTMLElement;
+	altInput: any;
 	/**  This is the div.flatpickr-calendar element. */
-	calendarContainer: HTMLElement;
+	calendarContainer: any;
 	/** The “left arrow” element responsible for decrementing the current month. */
-	prevMonthNav: HTMLElement;
+	prevMonthNav: any;
 	/** The “right arrow” element responsible for incrementing the current month. */
-	nextMonthNav: HTMLElement;
+	nextMonthNav: any;
 	/** The span holding the current month’s name. */
-	currentMonthElement: HTMLElement;
+	currentMonthElement: any;
 	/** The input holding the current year. */
-	currentYearElement: HTMLElement;
+	currentYearElement: any;
 	/** The container for all the day elements. */
-	days: HTMLElement;
+	days: any;
 
 	/** Changes the current month. (0 = January, 11 = December) */
 	changeMonth(month: number, is_offset: boolean): void;
